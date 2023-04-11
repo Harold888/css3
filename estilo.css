@@ -1,0 +1,23 @@
+body{
+    background-color: blueviolet;
+    font-size: 30px;
+}
+
+p{
+    font-size: 15px;
+}
+
+#miParrafo{
+    font-size: 40px;
+}
+
+.letraname{
+    font-size: 10px !important;
+}
+
+@media screen and (min-width:400px) and(max-width:700px){
+    body{
+        flex-direction: column;
+    }
+    
+}
